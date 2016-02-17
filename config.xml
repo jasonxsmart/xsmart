@@ -17,5 +17,5 @@
     </author>
 
     <!-- We'll include the Barcode plugin as an example -->
-	<plugin name="com.phonegap.plugin.statusbar" spec="1.1.0" source="pgb" />
+	<plugin name="com.phonegap.plugins.pushplugin" spec="2.5.0" source="pgb" />
 </widget>
