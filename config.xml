@@ -1,0 +1,37 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.xsmart.tv" version="3.0">
+  <name>XSMART</name>
+  <description>all in one</description>
+  <author href="http://xsmart.tv" email="support@xsmart.tv">XSMART GROUP</author>
+  <content src="index.html"/>
+  <preference name="permissions" value="none"/>
+  <preference name="orientation" value="landscape"/>
+  <preference name="target-device" value="universal"/>
+  <preference name="fullscreen" value="true"/>
+  <preference name="webviewbounce" value="true"/>
+  <preference name="prerendered-icon" value="true"/>
+  <preference name="stay-in-webview" value="false"/>
+  <preference name="ios-statusbarstyle" value="black-opaque"/>
+  <preference name="detect-data-types" value="true"/>
+  <preference name="exit-on-suspend" value="false"/>
+  <preference name="show-splash-screen-spinner" value="true"/>
+  <preference name="auto-hide-splash-screen" value="true"/>
+  <preference name="disable-cursor" value="false"/>
+  <preference name="android-minSdkVersion" value="7"/>
+  <preference name="android-installLocation" value="auto"/>
+  <gap:plugin name="org.apache.cordova.media-capture"/>
+  <gap:plugin name="org.apache.cordova.console"/>
+  <gap:plugin name="org.apache.cordova.device"/>
+  <gap:plugin name="org.apache.cordova.file"/>
+  <gap:plugin name="org.apache.cordova.inappbrowser"/>
+  <gap:plugin name="org.apache.cordova.media"/>
+  <gap:plugin name="org.apache.cordova.network-information"/>
+  <gap:plugin name="org.apache.cordova.splashscreen"/>
+  
+  <icon src="icon.png"/>
+  <icon src="icon/android/drawable-ldpi/icon.png" gap:platform="android" gap:qualifier="ldpi"/>
+  <icon src="icon/android/drawable-hdpi/icon.png" gap:platform="android" gap:qualifier="hdpi"/>
+  <icon src="icon/android/drawable-mdpi/icon.png" gap:platform="android" gap:qualifier="mdpi"/>
+  <icon src="icon/android/drawable-xhdpi/icon.png" gap:platform="android" gap:qualifier="xhdpi"/>
+
+  <access origin="*"/>
+</widget>
