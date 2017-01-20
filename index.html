@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
     <title>XSMART</title>
-	    <meta 		http-equiv="Content-Type" 	content="text/html; charset=utf-8"					/>
-		<meta 		name="referrer" 			content="never"										/>
-		<meta 		name="description" 			content="all in one" 								/>
-		<meta 		name="author" 				content="XSMART GROUP © JasonX, Lestat, Dronbi4." 	/>
-	</head>
-	<body>
-		<script>
-		var url = "http://app.xsmart.tv/";
-		document.location = "http://app.xsmart.tv/";
-		</script>
-    </body>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // external url
+        var ref = window.open(encodeURI('http://app.xsmart.tv'), '_blank', 'location=yes');
+        // relative document
+       // ref = window.open('http://app.xsmart.tv', '_self');
+    }
+
+    </script>
+  </head>
+  <body>
+  </body>
 </html>
