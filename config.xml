@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.xsmart.tv"
-    versionCode = "10"
+    android-versionCode = "10"
     version     = "3.0" >
     
     <name>XSMART</name>
@@ -14,6 +14,7 @@
     <plugin name="cordova-plugin-backbutton" />
 <!-- Core plugins -->
     <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" readonly="true" value="true" />
     
     <access origin="*"/>
     <allow-intent href="http://*/*" />
