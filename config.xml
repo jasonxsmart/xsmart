@@ -8,6 +8,7 @@
     <name>XSMART</name>
     <description>all in one</description>
     <access origin="http://app.xsmart.tv"></access>
+    <!--<access origin="*"></access>-->
     <content src="http://app.xsmart.tv/"></content>
     
 <!-- Core plugins -->
@@ -17,8 +18,8 @@
 <!-- Core plugins -->
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" readonly="true" value="true" />
+    <preference name="OverrideUserAgent" value="android/cordova" />
     
-    <access origin="*"></access>
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
