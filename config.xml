@@ -9,7 +9,7 @@
     <description>all in one</description>
     
 <!-- versionCode is optional and Android only -->   
-    
+    <icon src="store.png" />
     <icon src="ldpi.png" platform="android" qualifier="ldpi" />
     <icon src="mdpi.png" platform="android" qualifier="mdpi" />
     <icon src="hdpi.png" platform="android" qualifier="hdpi" />
