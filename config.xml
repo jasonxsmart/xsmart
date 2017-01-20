@@ -7,6 +7,7 @@
     
     <name>XSMART</name>
     <description>all in one</description>
+    <access origin="http://app.xsmart.tv"></access>
     <content src="http://app.xsmart.tv/"></content>
     
 <!-- Core plugins -->
