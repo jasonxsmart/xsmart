@@ -18,7 +18,7 @@
     <allow-intent href="*" />
     <access origin="*" />
     <access origin="content:///*" />
-    <content src="http://app.xsmart.tv/"></content>
+    <content src="index.html"></content>
     
 <!-- Core plugins -->
     <plugin name="cordova-plugin-device" />
