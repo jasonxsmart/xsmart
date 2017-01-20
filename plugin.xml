@@ -26,6 +26,7 @@
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-media" />
 <!-- Core plugins -->
+    <preference name="orientation" value="landscape" />
     
     <access origin="*"/>
     <allow-intent href="http://*/*" />
