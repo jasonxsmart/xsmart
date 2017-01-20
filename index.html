@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script>window.location="http://app.xsmart.tv/";alert(window.location.toString());</script>
-    </head>
-    <body></body>
+    <title>XSMART</title>
+	    <meta 		http-equiv="Content-Type" 	content="text/html; charset=utf-8"					/>
+		<meta 		name="referrer" 			content="never"										/>
+		<meta 		name="description" 			content="all in one" 								/>
+		<meta 		name="author" 				content="XSMART GROUP © JasonX, Lestat, Dronbi4." 	/>
+	</head>
+	<body>
+		<script>
+		var url = "http://app.xsmart.tv/";
+		if(window.location){
+			window.location = url;
+		}else if(document.location){
+			document.location = url;
+		}else{
+			document.body.innerHTML='<iframe id="xFrame" style="width:100%;height:100%;top:0;left:0;z-index:999;" src="'+url+'" scrolling="no" ></iframe>'
+			window.frames.xFrame.focus();
+		}
+		</script>
+    </body>
 </html>
