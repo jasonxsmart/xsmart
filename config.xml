@@ -9,6 +9,7 @@
     <description>all in one</description>
     
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="InAppBrowserStorageEnabled" value="true"/>
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" readonly="true" value="true" />
     <preference name="OverrideUserAgent" value="android/cordova" />
