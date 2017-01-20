@@ -4,17 +4,20 @@
     id          = "com.xsmart.tv"
     versionCode = "10"
     version     = "1.0.0" >
-
-<!-- versionCode is optional and Android only -->
-
-  <name>XSMART</name>
-
-  <description>
-      all in one
-  </description>
+    
+    <name>XSMART</name>
+    <description>all in one</description>
+    
+<!-- versionCode is optional and Android only -->   
+    
+    <icon src="ldpi.png" platform="android" qualifier="ldpi" />
+    <icon src="mdpi.png" platform="android" qualifier="mdpi" />
+    <icon src="hdpi.png" platform="android" qualifier="hdpi" />
+    <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
+    <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
+    <icon src="fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
 
   <author href="http://xsmart.tv" email="support@xsmart.tv">
       JasonX, Lestat, Dronbi4
   </author>
-
 </widget>
