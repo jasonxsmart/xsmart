@@ -24,6 +24,7 @@
     
 <!-- Core plugins -->
     <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-media" />
 <!-- Core plugins -->
     
     <access origin="*"/>
