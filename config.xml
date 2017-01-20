@@ -16,7 +16,9 @@
     
     <!--<access origin="http://app.xsmart.tv"></access>-->
     <allow-navigation href="*" />
-    <access origin="*"></access>
+    <allow-intent href="*" />
+    <access origin="*" />
+    <access origin="content:///*" />
     <!--<content src="http://app.xsmart.tv/"></content>-->
     
 <!-- Core plugins -->
