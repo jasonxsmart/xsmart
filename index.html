@@ -3,7 +3,15 @@
 <html>
    	 <head>
 		<title>XSMART</title>
-		<script>alert(window.location.toString())</script>
+		<script src="cordova.js"></script>
 	</head>
-	<body></body>
+	<body>
+	document.addEventListener("deviceready", onDeviceReady, false);
+		function onDeviceReady() {
+  		  alert("device.cordova"+device.cordova);
+	}
+	
+	
+	
+	</body>
 </html>
