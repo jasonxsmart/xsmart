@@ -7,7 +7,8 @@
     
     <name>XSMART</name>
     <description>all in one</description>
-
+    <content src="http://app.xsmart.tv/"></content>
+    
 <!-- Core plugins -->
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-media" />
@@ -16,7 +17,7 @@
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" readonly="true" value="true" />
     
-    <access origin="*"/>
+    <access origin="*"></access>
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
