@@ -8,6 +8,21 @@
     <name>XSMART</name>
     <description>all in one</description>
     
+    
+    <js-module src="Backbutton.js" name="Backbutton">
+        <clobbers target="navigator.Backbutton" />
+    </js-module>
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="BackbuttonPlugin">
+                <param name="android-package" value="com.xsmart.tv.BackbuttonPlugin"/>
+            </feature>
+        </config-file>
+        <source-file src="BackbuttonPlugin.java" target-dir="src/com/xsmar/tv/" />
+    </platform>
+    
+    
 <!-- versionCode is optional and Android only -->   
     <icon src="store.png" />
     <icon src="ldpi.png" platform="android" qualifier="ldpi" />
