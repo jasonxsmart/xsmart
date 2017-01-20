@@ -7,8 +7,14 @@
     
     <name>XSMART</name>
     <description>all in one</description>
-    <access origin="http://app.xsmart.tv"></access>
-    <!--<access origin="*"></access>-->
+    
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" readonly="true" value="true" />
+    <preference name="OverrideUserAgent" value="android/cordova" />
+    
+     <!--<access origin="http://app.xsmart.tv"></access>-->
+    <access origin="*"></access>
     <content src="http://app.xsmart.tv/"></content>
     
 <!-- Core plugins -->
@@ -16,10 +22,6 @@
     <plugin name="cordova-plugin-media" />
     <plugin name="cordova-plugin-backbutton" />
 <!-- Core plugins -->
-    <preference name="orientation" value="landscape" />
-    <preference name="fullscreen" readonly="true" value="true" />
-    <preference name="OverrideUserAgent" value="android/cordova" />
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
