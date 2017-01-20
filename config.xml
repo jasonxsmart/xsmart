@@ -15,7 +15,7 @@
     <icon src="hdpi.png" platform="android" qualifier="hdpi" />
     <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
     <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
-    <icon src="fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+    <icon src="xxxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
 
   <author href="http://xsmart.tv" email="support@xsmart.tv">
       JasonX, Lestat, Dronbi4
