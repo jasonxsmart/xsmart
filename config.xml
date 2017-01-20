@@ -14,9 +14,9 @@
     <preference name="fullscreen" readonly="true" value="true" />
     <preference name="OverrideUserAgent" value="android/cordova" />
     
-     <!--<access origin="http://app.xsmart.tv"></access>-->
+    <!--<access origin="http://app.xsmart.tv"></access>-->
     <access origin="*"></access>
-    <content src="http://app.xsmart.tv/"></content>
+    <!--<content src="http://app.xsmart.tv/"></content>-->
     
 <!-- Core plugins -->
     <plugin name="cordova-plugin-device" />
