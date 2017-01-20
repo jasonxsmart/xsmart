@@ -15,6 +15,7 @@
     <preference name="OverrideUserAgent" value="android/cordova" />
     
     <!--<access origin="http://app.xsmart.tv"></access>-->
+    <allow-navigation href="*" />
     <access origin="*"></access>
     <!--<content src="http://app.xsmart.tv/"></content>-->
     
