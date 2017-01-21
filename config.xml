@@ -34,11 +34,11 @@
     <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
     <icon src="xxxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
     <icon src="tvdpi.png" platform="android" qualifier="tvdpi" />
-    
+  <platform name="android">  
     <config-file target="AndroidManifest.xml" parent="/*">
          <uses-permission android:name="android.permission.READ_CONTACTS" />
     </config-file>
-
+</platform>
   <author href="http://xsmart.tv" email="support@xsmart.tv">
       JasonX, Lestat, Dronbi4
   </author>
