@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.xsmart.tv"
-    versionCode = "10"
+    versionCode = "23"
     version     = "3.0" >
     <name>XSMART</name>
     <description>all in one</description>
