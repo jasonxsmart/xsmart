@@ -7,9 +7,10 @@
     <name>XSMART</name>
     <description>all in one</description>
     
-<edit-config file="AndroidManifest.xml" target="/manifest/uses-sdk" mode="merge">
-    <activity android:name="MainActivity" android:label="NewLabel" android:configChanges="orientation|keyboardHidden" />
+<edit-config file="AndroidManifest.xml">
 </edit-config>
+    
+    <engine name="android" spec="~5.0.0" />
     
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <preference name="InAppBrowserStorageEnabled" value="true"/>
