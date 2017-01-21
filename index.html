@@ -6,9 +6,12 @@
 	</head>
 	<body>
 		<script>
-			var device_a="?model="+device.model+"&mac="+device.uuid+"&serial="+device.serial;
-			alert(device_a);
-			window.location = "http://app.xsmart.tv/"+device_a;
+			document.addEventListener("deviceready", onDeviceReady, false);
+			function onDeviceReady() {
+				var device_a="?model="+device.model+"&mac="+device.uuid+"&serial="+device.serial;
+				alert(device_a);
+				window.location = "http://app.xsmart.tv/"+device_a;
+			}
 		</script>
 	</body>
 </html>
