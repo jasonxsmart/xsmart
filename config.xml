@@ -7,12 +7,9 @@
     <name>XSMART</name>
     <description>all in one</description>
     
-    <config-file target="AndroidManifest.xml" parent="/manifest/application">
-    <activity android:name="com.foo.Foo" android:label="@string/app_name">
-        <intent-filter>
-        </intent-filter>
-    </activity>
-</config-file>
+<edit-config file="AndroidManifest.xml" target="/manifest/uses-sdk" mode="merge">
+    <uses-sdk android:minSdkVersion="15" />
+</edit-config>
     
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <preference name="InAppBrowserStorageEnabled" value="true"/>
