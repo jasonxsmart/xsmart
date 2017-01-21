@@ -8,7 +8,6 @@
     <description>all in one</description>
     
 <edit-config file="AndroidManifest.xml" target="/manifest/uses-sdk" mode="merge">
-    <uses-sdk android:minSdkVersion="15" />
 </edit-config>
     
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
