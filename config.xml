@@ -13,11 +13,10 @@
     <preference name="fullscreen" readonly="true" value="true" />
     <preference name="OverrideUserAgent" value="android/cordova" />
     
-    <!--<access origin="http://app.xsmart.tv"></access>-->
+     <!--<access origin="http://app.xsmart.tv" />-->
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <access origin="*" />
-    <access origin="content:///*" />
     <!--<content src="http://app.xsmart.tv/"></content>-->
     
 <!-- Core plugins -->
@@ -26,16 +25,6 @@
     <plugin name="cordova-plugin-backbutton" />
     <plugin name="cordova-plugin-whitelist" />
 <!-- Core plugins -->
-    
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
     
 <!-- versionCode is optional and Android only -->   
     <icon src="store.png" />
