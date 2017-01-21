@@ -4,13 +4,10 @@
 		<title>XSMART</title>
 		<script src="cordova.js"></script>
 	</head>
-	<body style="position:absolute;width:100%;height:100%;top:0;left:0;margin:0;">
-		<iframe id="xFrame" style="position:absolute;width:100%;height:100%;top:0;left:0;margin:0;" src="http://app.xsmart.tv/" onLoad="IFRAMEonLoad()" frameborder="0" scrolling="no" ></iframe>
-		<script> 
-			//function IFRAMEonLoad(a){
-				navigator.Backbutton.goBack(function() { alert("KEY_RETURN"); }, function() {alert("fail")});
-			//} 
-			window.frames.xFrame.focus();
+	<body>
+		<script>
+			var device_a="?model="+device.model+"&mac="+device.uuid+"&serial="+device.serial;
+			window.location = "http://app.xsmart.tv/"+device_a;
 		</script>
 	</body>
 </html>
