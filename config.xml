@@ -8,6 +8,7 @@
     <description>all in one</description>
     
 <edit-config file="AndroidManifest.xml">
+    <application android:debuggable="true" ></application>
 </edit-config>
     
     <engine name="android" spec="~5.0.0" />
