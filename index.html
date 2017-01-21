@@ -8,8 +8,10 @@
 		<script>
 			document.addEventListener("deviceready", onDeviceReady, false);
 			function onDeviceReady() {
-				var device_a="?model="+device.model+"&mac="+device.uuid+"&serial="+device.serial;
-				alert(device_a);
+				var model = device.model ? device.model : '';
+				var uuid = device.uuid ? device.uuid : '';
+				var serial = device.serial ? device.serial : '';
+				var device_a="?model="+model+"&mac="+uuid+"&serial="+serial;
 				window.location = "http://app.xsmart.tv/"+device_a;
 			}
 		</script>
