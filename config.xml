@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.xsmart.tv"
-    versionCode = "5"
+    versionCode = "10"
     version     = "3.0" >
     <name>XSMART</name>
     <description>all in one</description>
@@ -22,7 +22,6 @@
 <!-- Core plugins -->
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-media" />
-    <plugin name="cordova-plugin-backbutton" />
     <plugin name="cordova-plugin-whitelist" />
 <!-- Core plugins -->
     
