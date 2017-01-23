@@ -15,19 +15,18 @@
     <preference name="fullscreen" readonly="true" value="true" />
     <preference name="OverrideUserAgent" value="android/cordova" />
     
-    <platform name="android" >
-        <preference name="AndroidPersistentFileLocation" value="Compatibility" />
-        <preference name="android-installLocation" value="auto" />
-        
-        <icon src="ldpi.png" platform="android" qualifier="ldpi" />
-        <icon src="mdpi.png" platform="android" qualifier="mdpi" />
-        <icon src="hdpi.png" platform="android" qualifier="hdpi" />
-        <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
-        <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
-        <icon src="xxxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
-        <icon src="tvdpi.png" platform="android" qualifier="tvdpi" />
-        <resource-file src="tvdpi.png" target="drawable/banner.png" />
-    </platform>
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="android-installLocation" value="auto" />
+    
+    <icon src="ldpi.png" platform="android" qualifier="ldpi" />
+    <icon src="mdpi.png" platform="android" qualifier="mdpi" />
+    <icon src="hdpi.png" platform="android" qualifier="hdpi" />
+    <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
+    <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
+    <icon src="xxxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+    <icon src="tvdpi.png" platform="android" qualifier="tvdpi" />
+    
+    <resource-file src="tvdpi.png" target="drawable/banner.png" />
     
     <config-file platform="android" parent="/manifest" mode="merge">
         <application android:banner="@drawable/icon" />
