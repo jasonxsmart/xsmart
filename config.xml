@@ -24,12 +24,9 @@
     <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
     <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
     <icon src="xxxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
-    <icon src="tvdpi.png" platform="android" qualifier="tvdpi" />
-    
-    <resource-file src="tvdpi.png" target="res/drawable/banner.png" />
-    
+
     <config-file platform="android" parent="/manifest" mode="merge">
-        <application android:banner="@drawable/icon" />
+        <application android:banner="@drawable/banner" />
     </config-file>
     
     <!--<access origin="http://app.xsmart.tv" />-->
