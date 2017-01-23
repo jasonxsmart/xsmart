@@ -29,7 +29,7 @@
     </platform>
     
             <config-file platform="android" parent="/manifest" mode="merge">
-            <uses-permission android:name="android.permission.READ_CONTACTS" />
+            <application android:banner="@drawable/icon" />
         </config-file>
     
     <!--<access origin="http://app.xsmart.tv" />-->
