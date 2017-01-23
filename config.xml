@@ -27,7 +27,10 @@
         <icon src="tvdpi.png" platform="android" qualifier="tvdpi" />
         
         <config-file platform="android" parent="/manifest" mode="merge">
-            <uses-permission android:name="android.permission.READ_CONTACTS" />
+            <supports-screens
+    android:xlargeScreens="false"
+    android:largeScreens="false"
+    android:smallScreens="false" />
         </config-file>
         
     </platform>
