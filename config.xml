@@ -29,12 +29,18 @@
     </platform>
     
     <config-file platform="android" parent="/manifest" mode="replace">
-<activity>
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN"/>
-                    <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
-                </intent-filter>
-</activity>
+   <application android:debuggable="true" android:hardwareAccelerated="true" android:banner="@drawable/banner" android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.xsmart.tv.XSMART" android:screenOrientation="landscape" android:windowSoftInputMode="adjustUnspecified|stateUnspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
     </config-file>
     
     <!--<access origin="http://app.xsmart.tv" />-->
