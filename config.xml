@@ -28,7 +28,7 @@
         
     </platform>
     
-    <config-file platform="android" parent="/manifest" mode="merge">
+    <config-file platform="android" parent="/manifest" mode="replace">
         <application android:banner="@drawable/icon">
             <activity>
                 <intent-filter>
