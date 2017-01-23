@@ -26,14 +26,14 @@
         <icon src="xxxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
         <icon src="tvdpi.png" platform="android" qualifier="tvdpi" />
         
-        <config-file platform="android" parent="/manifest" mode="merge">
+    </platform>
+    
+            <config-file platform="android" parent="/manifest" mode="merge">
             <supports-screens
     android:xlargeScreens="false"
     android:largeScreens="false"
     android:smallScreens="false" />
         </config-file>
-        
-    </platform>
     
     <!--<access origin="http://app.xsmart.tv" />-->
     <allow-navigation href="*" />
