@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-    xmlns:gap   = "http://phonegap.com/ns/1.0"
-    xmlns:android = "http://schemas.android.com/apk/res/android" 
-    id          = "com.xsmart.tv"
-    versionCode = "23"
-    version     = "3.0" >
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+    xmlns:gap       = "http://phonegap.com/ns/1.0"
+    xmlns:android   = "http://schemas.android.com/apk/res/android" 
+    id              = "com.xsmart.tv"
+    versionCode     = "23"
+    version         = "3.0" >
+    
     <name>XSMART</name>
     <description>all in one</description>
     <icon src="store.png" />
@@ -29,7 +30,7 @@
     </platform>
     
     <config-file platform="android" parent="/manifest" mode="merge">
-
+        <application android:banner="@drawable-tvdpi/iconr" />
     </config-file>
     
     <!--<access origin="http://app.xsmart.tv" />-->
