@@ -12,6 +12,14 @@
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" readonly="true" value="true" />
     <preference name="OverrideUserAgent" value="android/cordova" />
+    <preference name="android-installLocation" value="auto" />
+    
+    <config-file platform="android" parent="/manifest" mode="merge">
+  <supports-screens
+    android:xlargeScreens="false"
+    android:largeScreens="false"
+    android:smallScreens="false" />
+</config-file>
     
      <!--<access origin="http://app.xsmart.tv" />-->
     <allow-navigation href="*" />
