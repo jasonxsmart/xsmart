@@ -29,10 +29,7 @@
     </platform>
     
             <config-file platform="android" parent="/manifest" mode="merge">
-            <supports-screens
-    android:xlargeScreens="false"
-    android:largeScreens="false"
-    android:smallScreens="false" />
+            <uses-permission android:name="android.permission.READ_CONTACTS" />
         </config-file>
     
     <!--<access origin="http://app.xsmart.tv" />-->
