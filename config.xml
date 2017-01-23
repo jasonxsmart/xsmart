@@ -30,7 +30,7 @@
     </platform>
     
     <config-file platform="android" parent="/manifest" mode="merge">
-        <application android:banner="@drawable-tvdpi/iconr" />
+        <application android:banner="@drawable/icon" />
     </config-file>
     
     <!--<access origin="http://app.xsmart.tv" />-->
