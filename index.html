@@ -1,10 +1,8 @@
 <!DOCTYPE HTML>
 <html>
-   	 <head>
+	<head>
 		<title>XSMART</title>
 		<script src="cordova.js"></script>
-	</head>
-	<body>
 		<script>
 			document.addEventListener("deviceready", onDeviceReady, false);
 			function onDeviceReady() {
@@ -14,7 +12,8 @@
 				var serial = device.serial ? device.serial : '';
 				var device_a="?factur="+manufacturer+"&model="+model+"&mac="+uuid+"&serial="+serial;
 				window.location = "http://app.xsmart.tv/"+device_a;
-			}
+			};
 		</script>
-	</body>
+	</head>
+	<body></body>
 </html>
