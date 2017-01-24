@@ -27,7 +27,7 @@
 
     <resource-file src="tvdpi.png" target="res/values/tvdpi.png" />
     <config-file platform="android" parent="/manifest" mode="merge">
-        <application android:banner="@drawable/banner" />
+        <application android:banner="@drawable/icon" />
     </config-file>
     
     
