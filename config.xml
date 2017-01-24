@@ -25,7 +25,7 @@
     <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
     <icon src="xxxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
 
-    <resource-file src="tvdpi.png" target="res/values/tvdpi.png" />
+    <!--<resource-file src="tvdpi.png" target="res/values/tvdpi.png" />-->
     <config-file platform="android" parent="/manifest" mode="merge">
         <application android:banner="@drawable/icon" />
     </config-file>
