@@ -41,7 +41,7 @@
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-media" />
     <plugin name="cordova-plugin-whitelist" />
-    <gap:plugin name="com.dawsonloudon.videoplayer" />
+    <plugin name="com.dawsonloudon.videoplayer" />
 
     <author href="http://xsmart.tv" email="support@xsmart.tv">
         JasonX, Lestat, Dronbi4
