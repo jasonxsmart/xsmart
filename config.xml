@@ -3,7 +3,7 @@
     xmlns:gap       = "http://phonegap.com/ns/1.0"
     xmlns:android   = "http://schemas.android.com/apk/res/android" 
     id              = "com.xsmart.tv"
-    versionCode     = "23"
+    versionCode     = "25"
     version         = "3.0" >
     
     <name>XSMART</name>
