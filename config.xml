@@ -41,7 +41,6 @@
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-media" />
     <plugin name="cordova-plugin-whitelist" />
-    <plugin name="com.badrit.macaddress" />
     <plugin name="cordova-open" />
 
     <author href="http://xsmart.tv" email="support@xsmart.tv">
