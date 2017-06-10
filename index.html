@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>XSMART</title>
+		<title>ARMsmart</title>
 		<script src="cordova.js"></script>
 		<script>
 			document.addEventListener("deviceready", onDeviceReady, false);
@@ -11,7 +11,7 @@
 				var uuid = device.uuid ? device.uuid : '';
 				var serial = device.serial ? device.serial : '';
 				var device_a="?factur="+manufacturer+"&model="+model+"&mac="+uuid+"&serial="+serial;
-				window.location = "http://app.xsmart.tv/"+device_a;
+				window.location = "http://app.xsmart.tv/arm.php"+device_a;
 			};
 		</script>
 	</head>
